@@ -9,18 +9,20 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="SubstractPublicSvcPackage">1.0</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">29-06-2026 03:18:18 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-06-29T03:18:23.982229972Z</value>
+  <value name="lastUpdated">2026-06-29T03:19:03.698669312Z</value>
   <value name="wmProjectId">fld771c600be1c4f24afbc2ad075fed3e0</value>
   <value name="creator">Arti Khare</value>
 </Values>
