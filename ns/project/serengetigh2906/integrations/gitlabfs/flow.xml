@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="SubstractPublicSvcPackage">
+<INVOKE NAME="SubstractPublicSvcPackage" SERVICE="SubstractPublicSvcPackage:substract_svc">
   <COMMENT></COMMENT>
 </INVOKE>
 </FLOW>

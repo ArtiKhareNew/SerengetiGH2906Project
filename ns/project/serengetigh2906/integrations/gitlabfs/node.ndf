@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Arti.Khare@ibm.com</value>
-    <value name="lastModifiedDate">1782703227286</value>
+    <value name="lastModifiedDate">1782703237786</value>
     <value name="displayName">gitlabfs</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -59,6 +59,16 @@
           <null name="services"/>
         </record>
         <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">substract_svc</value>
+          <value name="serviceName">SubstractPublicSvcPackage:substract_svc</value>
+          <value name="displayName">substract_svc</value>
+          <value name="assetType">Flow Service</value>
+          <null name="nsName"/>
+          <value name="itemType">flowService</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
