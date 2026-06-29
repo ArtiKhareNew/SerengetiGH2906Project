@@ -68,6 +68,22 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.903
+- serviceName: project.serengetigh2906.integrations:sign
+  packages:
+  - name: SerengetiGH2906Project
+    version: "1.0"
+  - name: AddPublicService
+    version: "1.0"
+  - name: SubstractPublicSvcPackage
+    version: "1.0"
+- serviceName: pub.security:sign
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.903
+- serviceName: pub.security:verify
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.903
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
