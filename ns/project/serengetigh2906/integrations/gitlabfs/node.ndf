@@ -45,15 +45,20 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Arti.Khare@ibm.com</value>
-    <value name="createdDate">1782703212186</value>
-    <value name="lastModifiedDate">1782703212186</value>
+    <value name="lastModifiedBy">Arti.Khare@ibm.com</value>
+    <value name="lastModifiedDate">1782703227286</value>
     <value name="displayName">gitlabfs</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">SubstractPublicSvcPackage</value>
+          <value name="groupName">SubstractPublicSvcPackage;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
       </record>
     </record>
   </record>
